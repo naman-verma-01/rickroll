@@ -15,4 +15,4 @@ app.get('/',(req, res) => {
 
 
 
-app.listen(process.env.port || 3000, () => console.log('App is available at =====> http://localhost:3000'))
+app.listen(process.env.port )
